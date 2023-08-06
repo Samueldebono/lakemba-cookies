@@ -1,0 +1,7 @@
+{
+  "name": "Lakemba Cookies",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
