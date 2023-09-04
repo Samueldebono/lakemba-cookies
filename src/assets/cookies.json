@@ -1,0 +1,268 @@
+{
+  "cookies": [
+    {
+      "id": 1,
+      "name": "Chocolate Chip Cookie",
+      "description": "A classic favorite with rich chocolate chips.",
+      "ingredients": ["Flour", "Sugar", "Butter", "Chocolate Chips", "Egg"],
+      "price_per_cookie": 1.5,
+      "url": "https://example.com/chocolate-chip-cookie"
+    },
+    {
+      "id": 2,
+      "name": "Oatmeal Raisin Cookie",
+      "description": "A chewy delight with plump raisins and oats.",
+      "ingredients": [
+        "Oats",
+        "Raisins",
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Cinnamon"
+      ],
+      "price_per_cookie": 1.75,
+      "url": "https://example.com/oatmeal-raisin-cookie"
+    },
+    {
+      "id": 3,
+      "name": "Peanut Butter Cookie",
+      "description": "Creamy peanut butter flavor in every bite.",
+      "ingredients": ["Peanut Butter", "Flour", "Sugar", "Egg"],
+      "price_per_cookie": 1.6,
+      "url": "https://example.com/peanut-butter-cookie"
+    },
+    {
+      "id": 4,
+      "name": "Snickerdoodle Cookie",
+      "description": "A buttery cookie rolled in cinnamon sugar.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Cinnamon",
+        "Cream of Tartar"
+      ],
+      "price_per_cookie": 1.7,
+      "url": "https://example.com/snickerdoodle-cookie"
+    },
+    {
+      "id": 5,
+      "name": "Double Chocolate Cookie",
+      "description": "For the ultimate chocolate lover.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Cocoa Powder",
+        "Chocolate Chips",
+        "Egg"
+      ],
+      "price_per_cookie": 1.75,
+      "url": "https://example.com/double-chocolate-cookie"
+    },
+    {
+      "id": 6,
+      "name": "White Chocolate Macadamia Nut Cookie",
+      "description": "Sweet white chocolate and crunchy macadamia nuts.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "White Chocolate Chips",
+        "Macadamia Nuts",
+        "Egg"
+      ],
+      "price_per_cookie": 1.85,
+      "url": "https://example.com/white-chocolate-macadamia-nut-cookie"
+    },
+    {
+      "id": 7,
+      "name": "Gingerbread Cookie",
+      "description": "A holiday classic with ginger and spices.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Molasses",
+        "Ginger",
+        "Cinnamon"
+      ],
+      "price_per_cookie": 1.8,
+      "url": "https://example.com/gingerbread-cookie"
+    },
+    {
+      "id": 8,
+      "name": "Coconut Macaroon",
+      "description": "Chewy and sweet with coconut flakes.",
+      "ingredients": [
+        "Coconut Flakes",
+        "Egg Whites",
+        "Sugar",
+        "Vanilla Extract"
+      ],
+      "price_per_cookie": 1.65,
+      "url": "https://example.com/coconut-macaroon-cookie"
+    },
+    {
+      "id": 9,
+      "name": "Lemon Sugar Cookie",
+      "description": "Zesty lemon flavor with a sugary finish.",
+      "ingredients": ["Flour", "Sugar", "Butter", "Lemon Zest", "Lemon Juice"],
+      "price_per_cookie": 1.7,
+      "url": "https://example.com/lemon-sugar-cookie"
+    },
+    {
+      "id": 10,
+      "name": "Pecan Sandie",
+      "description": "Crumbly shortbread with toasted pecans.",
+      "ingredients": ["Flour", "Sugar", "Butter", "Pecans", "Vanilla Extract"],
+      "price_per_cookie": 1.9,
+      "url": "https://example.com/pecan-sandie-cookie"
+    },
+    {
+      "id": 11,
+      "name": "Almond Joy Cookie",
+      "description": "Inspired by the candy bar with almonds and coconut.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Almonds",
+        "Shredded Coconut",
+        "Chocolate Chips",
+        "Egg"
+      ],
+      "price_per_cookie": 1.95,
+      "url": "https://example.com/almond-joy-cookie"
+    },
+    {
+      "id": 12,
+      "name": "Red Velvet Cookie",
+      "description": "Soft and vibrant red velvet flavor.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Cocoa Powder",
+        "Buttermilk",
+        "Red Food Coloring"
+      ],
+      "price_per_cookie": 1.85,
+      "url": "https://example.com/red-velvet-cookie"
+    },
+    {
+      "id": 13,
+      "name": "Mint Chocolate Cookie",
+      "description": "Cool mint and chocolate combination.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Mint Extract",
+        "Chocolate Chips",
+        "Egg"
+      ],
+      "price_per_cookie": 1.75,
+      "url": "https://example.com/mint-chocolate-cookie"
+    },
+    {
+      "id": 14,
+      "name": "Caramel Pecan Cookie",
+      "description": "Sweet caramel and crunchy pecans.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Caramel Bits",
+        "Pecans",
+        "Egg"
+      ],
+      "price_per_cookie": 2.0,
+      "url": "https://example.com/caramel-pecan-cookie"
+    },
+    {
+      "id": 15,
+      "name": "M&M's Cookie",
+      "description": "Colorful M&M's in every bite.",
+      "ingredients": ["Flour", "Sugar", "Butter", "M&M's", "Egg"],
+      "price_per_cookie": 1.65,
+      "url": "https://example.com/mms-cookie"
+    },
+    {
+      "id": 16,
+      "name": "Pistachio White Chocolate Cookie",
+      "description": "Rich white chocolate and pistachio goodness.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "White Chocolate Chips",
+        "Pistachios",
+        "Egg"
+      ],
+      "price_per_cookie": 1.9,
+      "url": "https://example.com/pistachio-white-chocolate-cookie"
+    },
+    {
+      "id": 17,
+      "name": "Cranberry Orange Cookie",
+      "description": "Tart cranberries and zesty orange zest.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Dried Cranberries",
+        "Orange Zest",
+        "Orange Juice",
+        "Egg"
+      ],
+      "price_per_cookie": 1.75,
+      "url": "https://example.com/cranberry-orange-cookie"
+    },
+    {
+      "id": 18,
+      "name": "Butterscotch Pecan Cookie",
+      "description": "Rich butterscotch flavor with pecans.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Butterscotch Chips",
+        "Pecans",
+        "Egg"
+      ],
+      "price_per_cookie": 1.8,
+      "url": "https://example.com/butterscotch-pecan-cookie"
+    },
+    {
+      "id": 19,
+      "name": "Cherry Almond Cookie",
+      "description": "Sweet cherries and almond slices.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Dried Cherries",
+        "Almond Slices",
+        "Egg"
+      ],
+      "price_per_cookie": 1.85,
+      "url": "https://example.com/cherry-almond-cookie"
+    },
+    {
+      "id": 20,
+      "name": "Maple Pecan Cookie",
+      "description": "Warm maple flavor with toasted pecans.",
+      "ingredients": [
+        "Flour",
+        "Sugar",
+        "Butter",
+        "Maple Syrup",
+        "Pecans",
+        "Egg"
+      ],
+      "price_per_cookie": 1.9,
+      "url": "https://example.com/maple-pecan-cookie"
+    }
+  ]
+}
