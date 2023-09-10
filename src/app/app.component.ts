@@ -9,6 +9,7 @@ import { CookieItemComponent } from './components/cookies/cookie-item/cookie-ite
 import { PageHeaderComponent } from './components/_shared/page-header/page-header.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CookieDataService } from 'src/service/cookie-data.service';
+import { CookieDetailsViewComponent } from './components/cookies/cookie-details-view/cookie-details-view.component';
 
 @Component({
   selector: 'app-root',
@@ -26,6 +27,7 @@ import { CookieDataService } from 'src/service/cookie-data.service';
     CookiesListComponent,
     CookieItemComponent,
     PageHeaderComponent,
+    CookieDetailsViewComponent,
   ],
   providers: [CookieDataService],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

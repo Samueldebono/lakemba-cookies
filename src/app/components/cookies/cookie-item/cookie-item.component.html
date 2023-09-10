@@ -1,10 +1,18 @@
 <!-- <ion-col> -->
 <ion-card class="myCard">
   <div class="card card-block">
-    <img src="assets/image/LC-hero.jpg" />
+    <img src="{{ imageSrc }}" />
     <div class="myOverlay">
       <h4 class="card-title">{{ cookieItem.name }}</h4>
-      <p class="card-text">{{ cookieItem.price_per_cookie }}</p>
+      <p class="card-text">${{ cookieItem.price_per_cookie }} per cookie</p>
+      <ion-button color="secondary" fill="outline" class="btn"
+        ><ion-icon slot="start" name="information-circle-outline"></ion-icon>
+        View Details</ion-button
+      >
+      <ion-button color="secondary" class="btn"
+        ><ion-icon slot="start" name="cart-outline"></ion-icon> Buy
+        Now</ion-button
+      >
     </div>
   </div>
 </ion-card>

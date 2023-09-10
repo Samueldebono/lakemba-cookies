@@ -33,6 +33,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatDialogModule } from '@angular/material/dialog';
 import { PageHeaderComponent } from './components/_shared/page-header/page-header.component';
+import { CookieDetailsViewComponent } from './components/cookies/cookie-details-view/cookie-details-view.component';
 
 const materialModules = [
   MatAutocompleteModule,

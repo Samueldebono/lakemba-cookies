@@ -14,8 +14,10 @@ import { ICookie } from '../models/cookie.model';
 export class CookieItemComponent {
   @Input()
   cookieItem!: ICookie;
+  imageSrc: string | undefined;
+  hovered = false;
 
   ngOnInit() {
-    console.log('Cookie------>', this.cookieItem);
+    this.imageSrc = 'assets/image/cookies/' + this.cookieItem.name + '.jpg';
   }
 }

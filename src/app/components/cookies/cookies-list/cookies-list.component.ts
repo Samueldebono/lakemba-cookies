@@ -28,6 +28,9 @@ export class CookiesListComponent {
   cookies: ICookie[] | undefined;
   pageTitle = 'Lakemba Cookie Shop';
 
+  cookieList: any[] | undefined;
+  cookieListCount = 0;
+
   constructor(private cookiedataService: CookieDataService) {}
 
   ngOnInit() {
@@ -41,6 +44,16 @@ export class CookiesListComponent {
       )
       .subscribe((data: ICookies) => {
         this.cookies = data.cookies;
+        this.cookieList = [...this.cookies];
+        this.cookieListCount = this.cookieList.length;
       });
+  }
+
+  handleInput(event: any) {
+    const query = event.target.value.toLowerCase();
+    this.cookieList = this.cookies?.filter(
+      (cookie: any) => cookie.name.toLowerCase().indexOf(query) > -1
+    );
+    this.cookieListCount = this.cookieList ? this.cookieList?.length : 0;
   }
 }
